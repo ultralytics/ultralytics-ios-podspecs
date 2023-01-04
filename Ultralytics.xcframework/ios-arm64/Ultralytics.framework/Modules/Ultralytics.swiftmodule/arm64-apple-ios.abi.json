@@ -1,0 +1,76 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Ultralytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Ultralytics",
+        "printedName": "Ultralytics",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Ultralytics",
+                "printedName": "Ultralytics.Ultralytics",
+                "usr": "s:11UltralyticsAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11UltralyticsAACABycfc",
+            "mangledName": "$s11UltralyticsAACABycfc",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "helloWorld",
+            "printedName": "helloWorld()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11UltralyticsAAC10helloWorldyyF",
+            "mangledName": "$s11UltralyticsAAC10helloWorldyyF",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11UltralyticsAAC",
+        "mangledName": "$s11UltralyticsAAC",
+        "moduleName": "Ultralytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
