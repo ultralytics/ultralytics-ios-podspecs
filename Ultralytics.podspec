@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "Ultralytics"
-    s.version      = "0.0.2"
+    s.version      = "0.0.3"
     s.platform = :ios, '14.0'
     s.ios.deployment_target = '14.0'
     s.summary      = "A framework for interfacing with Ultralytics HUB"

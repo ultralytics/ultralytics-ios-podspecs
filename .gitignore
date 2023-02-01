@@ -3,3 +3,4 @@ GenerateXCFramework.sh
 Ultralytics.xcodeproj/
 UltralyticsTests/
 Ultralytics/
+*.mlmodel
