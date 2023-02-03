@@ -4,3 +4,4 @@ Ultralytics.xcodeproj/
 UltralyticsTests/
 Ultralytics/
 *.mlmodel
+Ultralytics.xcframework.zip

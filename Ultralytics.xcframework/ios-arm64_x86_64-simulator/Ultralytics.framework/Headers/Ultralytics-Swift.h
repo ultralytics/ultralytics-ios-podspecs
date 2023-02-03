@@ -230,6 +230,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreMedia;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -250,6 +253,26 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC11Ultralytics12VideoCapture")
+@interface VideoCapture : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AVCapturePhotoOutput;
+@class AVCapturePhoto;
+
+@interface VideoCapture (SWIFT_EXTENSION(Ultralytics)) <AVCapturePhotoCaptureDelegate>
+- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error SWIFT_AVAILABILITY(ios,introduced=11.0);
+@end
+
+@class AVCaptureOutput;
+@class AVCaptureConnection;
+
+@interface VideoCapture (SWIFT_EXTENSION(Ultralytics)) <AVCaptureVideoDataOutputSampleBufferDelegate>
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -490,6 +513,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreMedia;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -510,6 +536,26 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC11Ultralytics12VideoCapture")
+@interface VideoCapture : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AVCapturePhotoOutput;
+@class AVCapturePhoto;
+
+@interface VideoCapture (SWIFT_EXTENSION(Ultralytics)) <AVCapturePhotoCaptureDelegate>
+- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error SWIFT_AVAILABILITY(ios,introduced=11.0);
+@end
+
+@class AVCaptureOutput;
+@class AVCaptureConnection;
+
+@interface VideoCapture (SWIFT_EXTENSION(Ultralytics)) <AVCaptureVideoDataOutputSampleBufferDelegate>
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
