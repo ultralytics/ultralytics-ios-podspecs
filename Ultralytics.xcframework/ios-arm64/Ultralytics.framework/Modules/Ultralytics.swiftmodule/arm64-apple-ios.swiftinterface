@@ -14,15 +14,14 @@ import _Concurrency
 import _StringProcessing
 public enum UltralyticsBaseModel : Swift.String {
   case coco_n
-  case coco_s
-  case coco_m
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class BaseModel : Ultralytics.YoloModel {
+public class BaseModel : Ultralytics.YoloModel {
+  public init(ultralyticsBaseModel: Ultralytics.UltralyticsBaseModel)
   public func loadModel() -> CoreML.MLModel?
   public typealias MLModel = CoreML.MLModel
   @objc deinit
@@ -50,7 +49,8 @@ extension Ultralytics.VideoCapture : AVFoundation.AVCapturePhotoCaptureDelegate 
 public protocol Listener {
   func on(recognitions: [[Swift.String : Any]])
 }
-@_hasMissingDesignatedInitializers public class ObjectDetector {
+public class ObjectDetector {
+  public init(yoloModel: Ultralytics.YoloModel, imageSize: CoreFoundation.CGSize)
   public func predict(sampleBuffer: CoreMedia.CMSampleBuffer, onCompleteListener: Ultralytics.Listener)
   @objc deinit
 }

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		c/45on+dmbZdC3PGwrHC4mztTLo=
+		ZjQJCylFxp6lFmbkWsu4CQEeCIU=
 		</data>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hewgcGTIL837Vl0hx1CVJlvP0pE=
+		7RXWMc6MMKb5WW6q3At9hdaJSQ4=
 		</data>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,59 +30,15 @@
 		</data>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hewgcGTIL837Vl0hx1CVJlvP0pE=
+		7RXWMc6MMKb5WW6q3At9hdaJSQ4=
 		</data>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		11l3H5yYb77ynFKIeVy2YjjH6Jw=
+		4mDy/QDxBvEJvqiztmy1hqNIGRc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		+NLpeaLf+JOdAATqMQvpVfNkV/U=
-		</data>
-		<key>yolov5m.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		5E8erKYmrjMWjFNFVqUA2q7l/lE=
-		</data>
-		<key>yolov5m.mlmodelc/coremldata.bin</key>
-		<data>
-		qaNIOwdFfQIe9ZfWIW5rQKZ+qXw=
-		</data>
-		<key>yolov5m.mlmodelc/metadata.json</key>
-		<data>
-		7/qb509k9qEcn9G1va2MdgbsHGc=
-		</data>
-		<key>yolov5m.mlmodelc/model0/analytics/coremldata.bin</key>
-		<data>
-		F8EioKTg3KntuuP8xisRj7vaCGY=
-		</data>
-		<key>yolov5m.mlmodelc/model0/coremldata.bin</key>
-		<data>
-		RpoB7mPdkuTXuJAvoIH69Z1bdjQ=
-		</data>
-		<key>yolov5m.mlmodelc/model0/model.espresso.net</key>
-		<data>
-		WumRzXgw4GNEjs9TNAx+rzK5D8A=
-		</data>
-		<key>yolov5m.mlmodelc/model0/model.espresso.shape</key>
-		<data>
-		yy8yZHmXxGBRjhnkkGjBYVZ8Hmg=
-		</data>
-		<key>yolov5m.mlmodelc/model0/model.espresso.weights</key>
-		<data>
-		wcB0YVllBHxseqhIocBenmJGMTs=
-		</data>
-		<key>yolov5m.mlmodelc/model0/model/coremldata.bin</key>
-		<data>
-		tGU7K8v0jbmLrWPOZkDsl7EBsZk=
-		</data>
-		<key>yolov5m.mlmodelc/model0/neural_network_optionals/coremldata.bin</key>
-		<data>
-		tkgF5pxT7RlO+9uypQti9obolyA=
-		</data>
-		<key>yolov5m.mlmodelc/model1/coremldata.bin</key>
-		<data>
-		WHMHv0jFfwLcjcq594QqOBlW/uQ=
 		</data>
 		<key>yolov5n.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -90,11 +46,11 @@
 		</data>
 		<key>yolov5n.mlmodelc/coremldata.bin</key>
 		<data>
-		qaNIOwdFfQIe9ZfWIW5rQKZ+qXw=
+		snvueIsd8yLnoIY574NFMrD4R84=
 		</data>
 		<key>yolov5n.mlmodelc/metadata.json</key>
 		<data>
-		SJnVUpvRwweoOY9eD+ewQF3dpNg=
+		v6EqhRib9F/QMTzBE6WmXOmW1zA=
 		</data>
 		<key>yolov5n.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -128,50 +84,6 @@
 		<data>
 		wTc36Y4CG2je/Tin55PhfJ0gI6Q=
 		</data>
-		<key>yolov5s.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		uTbEevUv/8m18UL2PO4r+4bC/K4=
-		</data>
-		<key>yolov5s.mlmodelc/coremldata.bin</key>
-		<data>
-		snvueIsd8yLnoIY574NFMrD4R84=
-		</data>
-		<key>yolov5s.mlmodelc/metadata.json</key>
-		<data>
-		2OTlT9OU8B67relU2iTBe3fpW7Q=
-		</data>
-		<key>yolov5s.mlmodelc/model0/analytics/coremldata.bin</key>
-		<data>
-		JuS9QoQxeNiLDI6RCwLFwlTltcs=
-		</data>
-		<key>yolov5s.mlmodelc/model0/coremldata.bin</key>
-		<data>
-		UdN0xxG527I6kunl898w1OMEYvg=
-		</data>
-		<key>yolov5s.mlmodelc/model0/model.espresso.net</key>
-		<data>
-		RpMDgmHD5GtRpsIIW4y338hqP08=
-		</data>
-		<key>yolov5s.mlmodelc/model0/model.espresso.shape</key>
-		<data>
-		gUMKVQ7b1zKhjHkHIpotrYbSZh0=
-		</data>
-		<key>yolov5s.mlmodelc/model0/model.espresso.weights</key>
-		<data>
-		gDSr6UPbuJYGuPYHUPA00PhRrHE=
-		</data>
-		<key>yolov5s.mlmodelc/model0/model/coremldata.bin</key>
-		<data>
-		tGU7K8v0jbmLrWPOZkDsl7EBsZk=
-		</data>
-		<key>yolov5s.mlmodelc/model0/neural_network_optionals/coremldata.bin</key>
-		<data>
-		tkgF5pxT7RlO+9uypQti9obolyA=
-		</data>
-		<key>yolov5s.mlmodelc/model1/coremldata.bin</key>
-		<data>
-		wTc36Y4CG2je/Tin55PhfJ0gI6Q=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -193,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tn9lg2WctQgIq3IROfApaVtFwObPQSwZ1fihW4SVKo=
+			x7E91n+YnOoqUe9DlIYpUSa9BF16qVGL2Lk9+Nfj348=
 			</data>
 		</dict>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORon3DRcidQA4izIsByznJB6c08LCztXTZsEEJd46Q=
+			r8dNdAVEfZsoxTurvx/c6guiPQfy9GQBFTxycWzGq7A=
 			</data>
 		</dict>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -214,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORon3DRcidQA4izIsByznJB6c08LCztXTZsEEJd46Q=
+			r8dNdAVEfZsoxTurvx/c6guiPQfy9GQBFTxycWzGq7A=
 			</data>
 		</dict>
 		<key>Modules/Ultralytics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmF5fo7eZ/JWiDrth1dP94/lkdFOUGND3M929bHpkug=
+			5z7X/NmDkhRN9HVE8tUmzLW3ouFg79UBG0tNQ30qSw4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -229,83 +141,6 @@
 			<key>hash2</key>
 			<data>
 			P1eW0SSEH5AI8sBwOSH6acqSCEBy4vEVoHsJnd8GuOA=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			69adMZSPsPS0WOXUDZFYz5E3A+8FUB4dagaM7uTzHEE=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oQY3XI79Om+t+9+Ht9u1Pt195CFkOcBWXxvZRrHEF+8=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wETfl7rq3tJi+B0EoW5JM3Ekx1l6osPiYDV2tC9jAK0=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ouxrKRa+9UCf63Dhb9M7AkrSoiq51WYwt8NyQxkMrPY=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gS1hTtkU4dnRhWf1fhCljyO4MkQOyXlzro7E29o1BoM=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B4h/StRku2RPhfIqX5dyDl3oU66P6RShJ0ydm5eX4eM=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nwILwzhJ3Om7ZgIHxT49Q2/2RNGrDOiRsO/aSmkQmUQ=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TDRbkv+U9MKA1cI16GufCTEZb1sFqF7IOm7FQV2pB8w=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JsMfzXP3J1PCXEF2nqub8rHW9vXpXkr2ag9c2kxRcE8=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model0/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
-			</data>
-		</dict>
-		<key>yolov5m.mlmodelc/model1/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rz2bFYE3BTZnR/STcyz4DcFbhp7bMiVGj7MJhOGHgn8=
 			</data>
 		</dict>
 		<key>yolov5n.mlmodelc/analytics/coremldata.bin</key>
@@ -319,14 +154,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQY3XI79Om+t+9+Ht9u1Pt195CFkOcBWXxvZRrHEF+8=
+			8G/siYbPpYyXnNP/iY36h89boM81AMfrFZJm0auzum4=
 			</data>
 		</dict>
 		<key>yolov5n.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1dxY0d7PbPI3yIyOngsItwg2i3tKd0tX3Sg0uK3Bq7I=
+			yybbAxHelJ6DGBwWCFN1cgwNv/S4sWEKDB1izCDwmk4=
 			</data>
 		</dict>
 		<key>yolov5n.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -379,83 +214,6 @@
 			</data>
 		</dict>
 		<key>yolov5n.mlmodelc/model1/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YPmPMeizF8WvjbItkAspEPCcRG04R+++XN3R37DCnOc=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XKMLt4nCkDgNgL4YsJwynCo4s/t58JPnLSUsFuHcEHM=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8G/siYbPpYyXnNP/iY36h89boM81AMfrFZJm0auzum4=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wBlCSl0g6nsjp+Cbr9OICZYQPYrhxnOUPFPV2X6QfkA=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rf0Gxn6/VPM6thGwo6E1bFr3lP87xXb9dtRzmpKp3o0=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9MsL5D+stURNKJ/By+jHsn+73wZmNADtok3pU3eqzPY=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lWEnpLebiS4UQR4nLjB1nVi2q2xmLPDe/GDfBxBNccA=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			58u2DK5XMYW6ceMGfqYyczKG7kRaYZEyeeYO2IRjc1A=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cyuAYtJA0Qv33aCKk+8ePlk78ASHCDs0vPElvUDhWdg=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JsMfzXP3J1PCXEF2nqub8rHW9vXpXkr2ag9c2kxRcE8=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model0/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
-			</data>
-		</dict>
-		<key>yolov5s.mlmodelc/model1/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>

@@ -54,80 +54,6 @@
             "moduleName": "Ultralytics"
           },
           {
-            "kind": "Var",
-            "name": "coco_s",
-            "printedName": "coco_s",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Ultralytics.UltralyticsBaseModel.Type) -> Ultralytics.UltralyticsBaseModel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UltralyticsBaseModel",
-                    "printedName": "Ultralytics.UltralyticsBaseModel",
-                    "usr": "s:11Ultralytics0A9BaseModelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Ultralytics.UltralyticsBaseModel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UltralyticsBaseModel",
-                        "printedName": "Ultralytics.UltralyticsBaseModel",
-                        "usr": "s:11Ultralytics0A9BaseModelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11Ultralytics0A9BaseModelO6coco_syA2CmF",
-            "mangledName": "$s11Ultralytics0A9BaseModelO6coco_syA2CmF",
-            "moduleName": "Ultralytics"
-          },
-          {
-            "kind": "Var",
-            "name": "coco_m",
-            "printedName": "coco_m",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Ultralytics.UltralyticsBaseModel.Type) -> Ultralytics.UltralyticsBaseModel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UltralyticsBaseModel",
-                    "printedName": "Ultralytics.UltralyticsBaseModel",
-                    "usr": "s:11Ultralytics0A9BaseModelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Ultralytics.UltralyticsBaseModel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UltralyticsBaseModel",
-                        "printedName": "Ultralytics.UltralyticsBaseModel",
-                        "usr": "s:11Ultralytics0A9BaseModelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11Ultralytics0A9BaseModelO6coco_myA2CmF",
-            "mangledName": "$s11Ultralytics0A9BaseModelO6coco_myA2CmF",
-            "moduleName": "Ultralytics"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -253,6 +179,33 @@
         "printedName": "BaseModel",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ultralyticsBaseModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseModel",
+                "printedName": "Ultralytics.BaseModel",
+                "usr": "s:11Ultralytics9BaseModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UltralyticsBaseModel",
+                "printedName": "Ultralytics.UltralyticsBaseModel",
+                "usr": "s:11Ultralytics0A9BaseModelO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Ultralytics9BaseModelC011ultralyticsbC0AcA0abC0O_tcfc",
+            "mangledName": "$s11Ultralytics9BaseModelC011ultralyticsbC0AcA0abC0O_tcfc",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "loadModel",
             "printedName": "loadModel()",
@@ -289,7 +242,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -995,6 +947,39 @@
         "printedName": "ObjectDetector",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(yoloModel:imageSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjectDetector",
+                "printedName": "Ultralytics.ObjectDetector",
+                "usr": "s:11Ultralytics14ObjectDetectorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YoloModel",
+                "printedName": "Ultralytics.YoloModel",
+                "usr": "s:11Ultralytics9YoloModelP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Ultralytics14ObjectDetectorC9yoloModel9imageSizeAcA04YoloE0_p_So6CGSizeVtcfc",
+            "mangledName": "$s11Ultralytics14ObjectDetectorC9yoloModel9imageSizeAcA04YoloE0_p_So6CGSizeVtcfc",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "predict",
             "printedName": "predict(sampleBuffer:onCompleteListener:)",
@@ -1034,8 +1019,7 @@
         "moduleName": "Ultralytics",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -1106,26 +1090,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "Ultralytics",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "Ultralytics",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
@@ -1141,37 +1105,9 @@
     {
       "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/BaseModel.swift",
       "kind": "StringLiteral",
-      "offset": 102,
-      "length": 8,
-      "value": "\"coco_s\""
-    },
-    {
-      "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/BaseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 8,
-      "value": "\"coco_m\""
-    },
-    {
-      "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/BaseModel.swift",
-      "kind": "StringLiteral",
       "offset": 75,
       "length": 8,
       "value": "\"coco_n\""
-    },
-    {
-      "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/BaseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 102,
-      "length": 8,
-      "value": "\"coco_s\""
-    },
-    {
-      "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/BaseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 8,
-      "value": "\"coco_m\""
     },
     {
       "filePath": "\/Users\/sergiosanchez\/Ultralytics\/Ultralytics\/Ultralytics\/VideoCapture.swift",
