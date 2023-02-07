@@ -2,6 +2,6 @@
 GenerateXCFramework.sh
 Ultralytics.xcodeproj/
 UltralyticsTests/
-UltralyticsIOSFramework
+Ultralytics/
 *.mlmodel
 Ultralytics.xcframework.zip
