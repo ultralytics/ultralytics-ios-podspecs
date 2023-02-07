@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "Ultralytics"
-    s.version      = "0.0.5"
+    s.version      = "0.0.6"
     s.platform = :ios, '14.0'
     s.ios.deployment_target = '14.0'
     s.summary      = "A framework for interfacing with Ultralytics HUB"
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.author             = { "Ultralytics" => "..." }
     s.swift_version = "5.7"
     s.swift_versions = '5.0'
-    s.source            = { :http => 'https://github.com/ultralytics/ultralytics-ios-podspecs/releases/download/0.0.5/Ultralytics.xcframework.zip' }
+    s.source            = { :http => 'https://github.com/ultralytics/ultralytics-ios-podspecs/releases/download/0.0.6/Ultralytics.xcframework.zip' }
     s.vendored_frameworks = "Ultralytics.xcframework"
 end
