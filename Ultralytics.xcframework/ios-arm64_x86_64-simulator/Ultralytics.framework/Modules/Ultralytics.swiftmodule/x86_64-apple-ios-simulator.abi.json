@@ -306,6 +306,114 @@
       },
       {
         "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "Ultralytics"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "Ultralytics"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalModel",
+        "printedName": "LocalModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(modelPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalModel",
+                "printedName": "Ultralytics.LocalModel",
+                "usr": "s:11Ultralytics10LocalModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Ultralytics10LocalModelC9modelPathACSS_tcfc",
+            "mangledName": "$s11Ultralytics10LocalModelC9modelPathACSS_tcfc",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadModel",
+            "printedName": "loadModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLModel",
+                    "printedName": "CoreML.MLModel",
+                    "usr": "c:objc(cs)MLModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Ultralytics10LocalModelC04loadC0So7MLModelCSgyF",
+            "mangledName": "$s11Ultralytics10LocalModelC04loadC0So7MLModelCSgyF",
+            "moduleName": "Ultralytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11Ultralytics10LocalModelC",
+        "mangledName": "$s11Ultralytics10LocalModelC",
+        "moduleName": "Ultralytics",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "YoloModel",
+            "printedName": "YoloModel",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "MLModel",
+                "printedName": "MLModel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLModel",
+                    "printedName": "CoreML.MLModel",
+                    "usr": "c:objc(cs)MLModel"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11Ultralytics9YoloModelP",
+            "mangledName": "$s11Ultralytics9YoloModelP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -991,6 +1099,15 @@
         "moduleName": "Ultralytics",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Predictor",
+            "printedName": "Predictor",
+            "usr": "s:11Ultralytics9PredictorP",
+            "mangledName": "$s11Ultralytics9PredictorP"
+          }
         ]
       },
       {
@@ -1078,6 +1195,15 @@
         "moduleName": "Ultralytics",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Predictor",
+            "printedName": "Predictor",
+            "usr": "s:11Ultralytics9PredictorP",
+            "mangledName": "$s11Ultralytics9PredictorP"
+          }
         ]
       },
       {
@@ -1204,6 +1330,53 @@
         "declKind": "Protocol",
         "usr": "s:11Ultralytics8ListenerP",
         "mangledName": "$s11Ultralytics8ListenerP",
+        "moduleName": "Ultralytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Predictor",
+        "printedName": "Predictor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "predict",
+            "printedName": "predict(sampleBuffer:onCompleteListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Listener",
+                "printedName": "Ultralytics.Listener",
+                "usr": "s:11Ultralytics8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Ultralytics9PredictorP7predict12sampleBuffer18onCompleteListenerySo08CMSampleE3Refa_AA0H0_ptF",
+            "mangledName": "$s11Ultralytics9PredictorP7predict12sampleBuffer18onCompleteListenerySo08CMSampleE3Refa_AA0H0_ptF",
+            "moduleName": "Ultralytics",
+            "genericSig": "<τ_0_0 where τ_0_0 : Ultralytics.Predictor>",
+            "sugared_genericSig": "<Self where Self : Ultralytics.Predictor>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Ultralytics9PredictorP",
+        "mangledName": "$s11Ultralytics9PredictorP",
         "moduleName": "Ultralytics",
         "declAttributes": [
           "AccessControl"

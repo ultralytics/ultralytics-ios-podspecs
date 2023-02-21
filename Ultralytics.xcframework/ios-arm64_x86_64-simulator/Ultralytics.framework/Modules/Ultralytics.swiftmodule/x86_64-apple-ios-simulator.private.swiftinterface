@@ -3,6 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ultralytics
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import CommonCrypto
 import CoreML
 import CoreVideo
 import Foundation
@@ -27,6 +28,12 @@ public class BaseModel : Ultralytics.YoloModel {
   public typealias MLModel = CoreML.MLModel
   @objc deinit
 }
+public class LocalModel : Ultralytics.YoloModel {
+  public init(modelPath: Swift.String)
+  public func loadModel() -> CoreML.MLModel?
+  public typealias MLModel = CoreML.MLModel
+  @objc deinit
+}
 public protocol VideoCaptureDelegate : AnyObject {
   func videoCapture(_ capture: Ultralytics.VideoCapture, didCaptureVideoFrame: CoreMedia.CMSampleBuffer)
 }
@@ -47,12 +54,12 @@ extension Ultralytics.VideoCapture : AVFoundation.AVCapturePhotoCaptureDelegate 
   @available(iOS 11.0, *)
   @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
 }
-public class ObjectDetector {
+public class ObjectDetector : Ultralytics.Predictor {
   public init(yoloModel: Ultralytics.YoloModel, imageSize: CoreFoundation.CGSize)
   public func predict(sampleBuffer: CoreMedia.CMSampleBuffer, onCompleteListener: Ultralytics.Listener)
   @objc deinit
 }
-public class ObjectClassifier {
+public class ObjectClassifier : Ultralytics.Predictor {
   public init(yoloModel: Ultralytics.YoloModel)
   public func predict(sampleBuffer: CoreMedia.CMSampleBuffer, onCompleteListener: Ultralytics.Listener)
   @objc deinit
@@ -63,6 +70,9 @@ public protocol YoloModel {
 }
 public protocol Listener {
   func on(predictions: [[Swift.String : Any]])
+}
+public protocol Predictor {
+  func predict(sampleBuffer: CoreMedia.CMSampleBuffer, onCompleteListener: Ultralytics.Listener)
 }
 extension Ultralytics.UltralyticsBaseModel : Swift.Equatable {}
 extension Ultralytics.UltralyticsBaseModel : Swift.Hashable {}
