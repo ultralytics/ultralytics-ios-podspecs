@@ -1,3 +1,6 @@
+<br>
+<img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320">
+
 # Ultralytics iOS Pods :apple:
 
 Welcome to Ultralytics iOS Podspecs! Whether you're an iOS developer looking to integrate advanced Machine Learning models into your application, or you're curious about how to get started with AI on mobile devices, you're in the right place. This README will guide you through the process of installing and using the Ultralytics library in your iOS project using CocoaPods. Let's enhance your application with the power of AI! 🚀
@@ -58,12 +61,40 @@ Now, you're ready to leverage the ML capabilities provided by Ultralytics in you
 
 Ultralytics is powered by cutting-edge machine learning models designed for a range of tasks—from object detection to image classification. By utilizing the Ultralytics library, you'll be able to tap into this power with ease, bringing intelligent features to your users' fingertips.
 
-Consider exploring the [Ultralytics documentation](https://ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
+Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
 
-## Need Help?
+## 🤝 Contribute
 
-If you need further assistance or have any questions, please refer to the official Ultralytics documentation or reach out to the community via [GitHub Issues](https://github.com/ultralytics/ultralytics-ios-podspecs/issues) for support.
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
-Enjoy building with Ultralytics and happy coding! 🎉
+<!-- Ultralytics contributors -->
+<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
+<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
 
-(Note: Please bear in mind that all Ultralytics repositories use the AGPL-3.0 license. If you incorporate the Ultralytics pod into your project, ensure it complies with this license.)
+## ©️ License
+
+Ultralytics is excited to offer two different licensing options to meet your needs:
+
+- **AGPL-3.0 License**: Perfect for students and hobbyists, this [OSI-approved](https://opensource.org/licenses/) open-source license encourages collaborative learning and knowledge sharing. Please refer to the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for detailed terms.
+- **Enterprise License**: Ideal for commercial use, this license allows for the integration of Ultralytics software and AI models into commercial products without the open-source requirements of AGPL-3.0. For use cases that involve commercial applications, please contact us via [Ultralytics Licensing](https://ultralytics.com/license).
+
+## 📬 Contact Us
+
+For bug reports, feature requests, and contributions, head to [GitHub Issues](https://github.com/ultralytics/ultralytics-ios-podspecs/issues). For questions and discussions about this project and other Ultralytics endeavors, join us on [Discord](https://ultralytics.com/discord)!
+
+<br>
+<div align="center">
+  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://youtube.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.instagram.com/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="3%" alt="Ultralytics Instagram"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+</div>
