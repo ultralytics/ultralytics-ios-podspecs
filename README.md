@@ -5,6 +5,8 @@
 
 Welcome to Ultralytics iOS Podspecs! Whether you're an iOS developer looking to integrate advanced Machine Learning models into your application, or you're curious about how to get started with AI on mobile devices, you're in the right place. This README will guide you through the process of installing and using the Ultralytics library in your iOS project using CocoaPods. Let's enhance your application with the power of AI! 🚀
 
+[![Ultralytics Actions](https://github.com/ultralytics/ultralytics-ios-podspecs/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ultralytics-ios-podspecs/actions/workflows/format.yml)
+
 ## Getting Started
 
 To begin, you'll need to have CocoaPods installed on your machine. CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 82 thousand libraries and is used in over 3 million apps. If you haven't installed CocoaPods yet, visit the [Getting Started guide](https://guides.cocoapods.org/using/getting-started.html) and follow the instructions there.
