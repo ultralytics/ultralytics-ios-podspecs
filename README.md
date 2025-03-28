@@ -48,7 +48,7 @@ Then, try `pod install` again.
 7.  After a successful installation, CocoaPods generates a `.xcworkspace` file for your project. Open this workspace file in [Xcode](https://developer.apple.com/xcode/) to continue development.
 
 ```bash
-open <YourProjectName>.xcworkspace
+open < YourProjectName > .xcworkspace
 ```
 
 ### ✨ Using Ultralytics in Your Project
@@ -77,8 +77,8 @@ We welcome contributions from the community! Whether you're fixing bugs, adding 
 
 Ultralytics offers two licensing options:
 
--   **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for students and enthusiasts. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for details.
--   **Enterprise License**: Designed for commercial use, this license allows seamless integration of Ultralytics software and AI models into commercial products and services. If your application requires this license, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for students and enthusiasts. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for details.
+- **Enterprise License**: Designed for commercial use, this license allows seamless integration of Ultralytics software and AI models into commercial products and services. If your application requires this license, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📬 Contact Us
 
