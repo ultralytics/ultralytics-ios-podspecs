@@ -48,7 +48,7 @@ Then, try `pod install` again.
 7.  After a successful installation, CocoaPods generates a `.xcworkspace` file for your project. Open this workspace file in [Xcode](https://developer.apple.com/xcode/) to continue development.
 
 ```bash
-open < YourProjectName > .xcworkspace
+open YourProjectName.xcworkspace
 ```
 
 ### ✨ Using Ultralytics in Your Project
@@ -71,14 +71,11 @@ Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/
 
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics-ios-podspecs/graphs/contributors)
 
 ## ©️ License
 
-Ultralytics offers two licensing options:
-
-- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for students and enthusiasts. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for details.
-- **Enterprise License**: Designed for commercial use, this license allows seamless integration of Ultralytics software and AI models into commercial products and services. If your application requires this license, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
+This repository includes an [AGPL-3.0 LICENSE](https://github.com/ultralytics/ultralytics-ios-podspecs/blob/main/LICENSE). The CocoaPods spec also declares the distributed `Ultralytics.xcframework` as commercial software, so review both the repository license and [Ultralytics Licensing](https://www.ultralytics.com/license) before distributing apps that include the pod.
 
 ## 📬 Contact Us
 
