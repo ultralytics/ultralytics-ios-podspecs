@@ -48,7 +48,7 @@ Then, try `pod install` again.
 7.  After a successful installation, CocoaPods generates a `.xcworkspace` file for your project. Open this workspace file in [Xcode](https://developer.apple.com/xcode/) to continue development.
 
 ```bash
-open <YourProjectName>.xcworkspace
+open < YourProjectName > .xcworkspace
 ```
 
 ### ✨ Using Ultralytics in Your Project
