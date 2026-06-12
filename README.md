@@ -63,13 +63,13 @@ Now, you're ready to leverage the ML capabilities provided by Ultralytics in you
 
 ## 🧠 Understanding the Pod
 
-Ultralytics is powered by cutting-edge [machine learning models](https://docs.ultralytics.com/models/) designed for a range of tasks—from [object detection](https://docs.ultralytics.com/tasks/detect/) to [image classification](https://docs.ultralytics.com/tasks/classify/). By utilizing the Ultralytics library, you'll be able to tap into this power with ease, bringing intelligent features to your users' fingertips.
+Ultralytics is powered by cutting-edge [machine learning models](https://docs.ultralytics.com/models) designed for a range of tasks—from [object detection](https://docs.ultralytics.com/tasks/detect) to [image classification](https://docs.ultralytics.com/tasks/classify). By utilizing the Ultralytics library, you'll be able to tap into this power with ease, bringing intelligent features to your users' fingertips.
 
 Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
 
 ## 🤝 Contribute
 
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics-ios-podspecs/graphs/contributors)
 
