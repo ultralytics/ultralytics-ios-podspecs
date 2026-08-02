@@ -1,6 +1,6 @@
 <a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-# Ultralytics iOS Pods :apple:
+# 🍎 Ultralytics iOS Pods
 
 Welcome to Ultralytics iOS Podspecs! Whether you're an iOS developer looking to integrate advanced [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) models into your application, or you're curious about how to get started with [AI on mobile devices](https://developer.apple.com/machine-learning/), you're in the right place. This README guides you through installing and using the Ultralytics library in your iOS project using [CocoaPods](https://cocoapods.org/). Let's enhance your application with the power of AI! 🚀
 
@@ -73,17 +73,22 @@ pod 'UltralyticsYOLO'
 
 Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
 
-## 🤝 Contribute
+## 💡 Contribute
 
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics-ios-podspecs/graphs/contributors)
 
-## ©️ License
+## 📄 License
 
-This repository includes an [AGPL-3.0 LICENSE](https://github.com/ultralytics/ultralytics-ios-podspecs/blob/main/LICENSE). The CocoaPods spec also declares the distributed `Ultralytics.xcframework` as commercial software, so review both the repository license and [Ultralytics Licensing](https://www.ultralytics.com/license) before distributing apps that include the pod.
+Ultralytics offers two licensing options to accommodate diverse needs:
 
-## 📬 Contact Us
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration and knowledge sharing. This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license promotes transparency and community involvement. See the [LICENSE](https://github.com/ultralytics/ultralytics-ios-podspecs/blob/main/LICENSE) file for details.
+- **Enterprise License**: Designed for commercial applications, this license permits the seamless integration of Ultralytics software and AI models into commercial products and services, bypassing the copyleft requirements of AGPL-3.0. For commercial use cases, please inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
+
+Note that `Ultralytics.podspec` declares the distributed `Ultralytics.xcframework` binary as commercial software, so review [Ultralytics Licensing](https://www.ultralytics.com/license) before shipping an app that includes the pod.
+
+## 📮 Contact
 
 For bug reports, feature requests, and contributions, please visit [GitHub Issues](https://github.com/ultralytics/ultralytics-ios-podspecs/issues). For questions, discussions, and community support, join our [Discord](https://discord.com/invite/ultralytics)!
 
