@@ -63,7 +63,13 @@ Now, you're ready to leverage the ML capabilities provided by Ultralytics in you
 
 ## 🧠 Understanding the Pod
 
-Ultralytics is powered by cutting-edge [machine learning models](https://docs.ultralytics.com/models) designed for a range of tasks—from [object detection](https://docs.ultralytics.com/tasks/detect) to [image classification](https://docs.ultralytics.com/tasks/classify). By utilizing the Ultralytics library, you'll be able to tap into this power with ease, bringing intelligent features to your users' fingertips.
+The `Ultralytics` pod vends the prebuilt `Ultralytics.xcframework`, a client for computer vision models hosted on the [Ultralytics Platform](https://platform.ultralytics.com/) (formerly Ultralytics HUB). It is not an on-device inference engine.
+
+To run [YOLO models](https://docs.ultralytics.com/models) directly on device with Core ML — [object detection](https://docs.ultralytics.com/tasks/detect), segmentation, [classification](https://docs.ultralytics.com/tasks/classify), pose, and OBB — use the `UltralyticsYOLO` pod from [ultralytics/yolo-ios-app](https://github.com/ultralytics/yolo-ios-app) instead:
+
+```ruby
+pod 'UltralyticsYOLO'
+```
 
 Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
 
