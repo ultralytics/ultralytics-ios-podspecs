@@ -1,4 +1,4 @@
-<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🍎 Ultralytics iOS Pods
 
@@ -6,8 +6,8 @@ Welcome to Ultralytics iOS Podspecs! Whether you're an iOS developer looking to 
 
 [![Ultralytics Actions](https://github.com/ultralytics/ultralytics-ios-podspecs/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ultralytics-ios-podspecs/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
-[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
-[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://www.reddit.com/r/ultralytics/)
 
 ## 🚦 Getting Started
 
@@ -63,7 +63,7 @@ Now, you're ready to leverage the ML capabilities provided by Ultralytics in you
 
 ## 🧠 Understanding the Pod
 
-The `Ultralytics` pod vends the prebuilt `Ultralytics.xcframework`, a client for computer vision models hosted on the [Ultralytics Platform](https://platform.ultralytics.com/) (formerly Ultralytics HUB). It is not an on-device inference engine.
+The `Ultralytics` pod vends the prebuilt `Ultralytics.xcframework`, a client for computer vision models hosted on the [Ultralytics Platform](https://platform.ultralytics.com) (formerly Ultralytics HUB). It is not an on-device inference engine.
 
 To run [YOLO models](https://docs.ultralytics.com/models) directly on device with Core ML — [object detection](https://docs.ultralytics.com/tasks/detect), segmentation, [classification](https://docs.ultralytics.com/tasks/classify), pose, and OBB — use the `UltralyticsYOLO` pod from [ultralytics/yolo-ios-app](https://github.com/ultralytics/yolo-ios-app) instead:
 
@@ -71,7 +71,7 @@ To run [YOLO models](https://docs.ultralytics.com/models) directly on device wit
 pod 'UltralyticsYOLO'
 ```
 
-Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com/) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
+Consider exploring the [Ultralytics documentation](https://docs.ultralytics.com) for comprehensive insights into the various models, their functionalities, and how best to apply them to your specific use cases.
 
 ## 💡 Contribute
 
